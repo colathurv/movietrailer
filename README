@@ -1,0 +1,43 @@
+#####################
+README
+AUTHOR :: Colathur Vijayan ["VJN" in short] 
+####################
+
++++++++++++++++++++++++++++++++++
+What does this project contain ?
+++++++++++++++++++++++++++++++++++
+
+This project contain python modules,data and meta-data files that help create a movie page 
+consisting of movie images, which can be clicked on to play the actual movies.
+
+The python modules are -
+
+movie.py
+media.py
+fresh_tomatoes.py
+
+The data/meta-data files are -
+
+movies.csv
+movie_page.props
+
+In addition, I have enclosed a sample output [sample_output.gif] created when I ran this project in 
+my environment.
+
++++++++++++++++++++++++++++++
+How to run this project ?
++++++++++++++++++++++++++++++
+To run it as is, copy all the files in it into a directory of your choice, which your python interpeter can see. 
+Run the movie.py module in your environment.  If everything works you should see an output similar 
+to sample_output.jpg in your browser and from there on, it is intuitive. Most importantly if you want to see
+who the hero is, the story line or the release year of the movie, hover over the images.
+
+++++++++++++++++++++++++++++++++++++
+How to customize this project ?
+++++++++++++++++++++++++++++++++++++
+You could customize this project in 2 ways -
+1.  Open the movies.csv, read the comments and blow away my movie content and enter your movie 
+content [one movie per line], save and run the project again. You should see your movies, instead 
+of mine.
+2. You could change the title of the movie page, by changing the movie_page.props file
+and using your title as opposed to mine.   
